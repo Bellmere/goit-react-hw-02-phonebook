@@ -63,8 +63,9 @@ export class ContactForm extends Component {
                 </button>
             </form>
         );
-        ContactForm.propTypes = {
-            handleSubmit: propTypes.func,
-          };
     };
 }
+
+ContactForm.propTypes = {
+    handleSubmit: propTypes.func,
+  };

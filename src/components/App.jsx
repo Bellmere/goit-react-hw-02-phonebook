@@ -18,10 +18,6 @@ export class App extends Component {
     number: '',
   };
 
-  onXChange = () => {
-    const papaJohn = this.state.name;
-  }
-
   handleChange = e => {
     const { name, value } = e.target;
     this.setState({ [name]: value });
